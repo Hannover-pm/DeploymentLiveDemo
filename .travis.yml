@@ -11,3 +11,4 @@ before_install:
   - "cpanm Moo"
   - "cpanm MooX::Types::MooseLike::Base"
   - "cpanm Test::More"
+script: "prove -lrv t"
